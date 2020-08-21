@@ -1,0 +1,26 @@
+
+<h1>Home Component</h1>
+<table class="table table-striped table-hover ">
+  <thead>
+        <tr>
+          <th>Title</th>
+          <th>Category</th>
+          <th>Price</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr *ngFor="let personal of personals"  >
+     
+          <td>
+            {{personal.name}}
+          </td>
+          <td>
+            {{personal.firstSurname}}
+          </td>
+          <td>
+            {{personal.secondSurname}}
+          </td>
+         
+        </tr>
+        </tbody>
+      </table>
